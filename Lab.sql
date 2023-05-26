@@ -57,7 +57,7 @@ where last_name = 'Johansson';
  select (avg(length)) from film;
  
  -- q 8
-select  concat(floor(avg(length)/60),'h', round(((avg(length))%60),0),'min') from film;
+select  concat(floor(avg(length)/60),'h', round(((avg(length))%60),0),'min')cd from film;
 -- q 9
 select count(length) from film
 where length >= 180;
